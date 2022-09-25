@@ -1,2 +1,4 @@
-package com.kubeforce.azureiotsimulator;public class DeviceClient {
+package com.kubeforce.azureiotsimulator;
+
+public class DeviceClient {
 }

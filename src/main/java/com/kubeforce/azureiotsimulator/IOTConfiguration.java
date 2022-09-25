@@ -1,13 +1,12 @@
-package com.barath.azure.app;
+package com.kubeforce.azureiotsimulator;
 
-import java.net.URISyntaxException;
-
+import com.microsoft.azure.sdk.iot.device.DeviceClient;
+import com.microsoft.azure.sdk.iot.device.IotHubClientProtocol;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.microsoft.azure.sdk.iot.device.DeviceClient;
-import com.microsoft.azure.sdk.iot.device.IotHubClientProtocol;
+import java.net.URISyntaxException;
 
 @Configuration
 public class IOTConfiguration {

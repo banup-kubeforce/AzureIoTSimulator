@@ -1,13 +1,13 @@
-package com.kubeforce.googlepubsubv2;
+package com.kubeforce.azureiotsimulator;
 
 import java.time.LocalDateTime;
 
-public class MessageEntity {
+public class PayloadEntity {
 
     private final LocalDateTime timestamp;
     private final String message;
 
-    public MessageEntity(LocalDateTime timestamp, String message) {
+    public PayloadEntity(LocalDateTime timestamp, String message) {
         this.timestamp = timestamp;
         this.message = message;
     }
